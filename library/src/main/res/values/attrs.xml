@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- MaterialProgressBar -->
+  <!--==========================================================================-->
+  <declare-styleable name="MaterialProgressBar">
+    <attr name="mpb_progressStyle" format="enum">
+      <enum name="circular" value="0"/>
+      <enum name="horizontal" value="1"/>
+    </attr>
+    <attr name="mpb_setBothDrawables" format="boolean"/>
+    <attr name="mpb_useIntrinsicPadding" format="boolean"/>
+    <attr name="mpb_progress" format="float"/>
+    <attr name="mpb_thickness" format="float"/>
+    <attr name="mpb_smooth_progress" format="boolean"/>
+    <attr name="mpb_indeterminate" format="boolean"/>
+    <attr name="mpb_showProgressBackground" format="boolean"/>
+    <attr name="mpb_progressTint" format="color|reference"/>
+    <attr name="mpb_progressTintMode" format="enum">
+      <enum name="src_over" value="3"/>
+      <enum name="src_in" value="5"/>
+      <enum name="src_atop" value="9"/>
+      <enum name="multiply" value="14"/>
+      <enum name="screen" value="15"/>
+      <enum name="add" value="16"/>
+    </attr>
+    <attr name="mpb_secondaryProgressTint" format="color|reference"/>
+    <attr name="mpb_secondaryProgressTintMode" format="enum">
+      <enum name="src_over" value="3"/>
+      <enum name="src_in" value="5"/>
+      <enum name="src_atop" value="9"/>
+      <enum name="multiply" value="14"/>
+      <enum name="screen" value="15"/>
+      <enum name="add" value="16"/>
+    </attr>
+    <attr name="mpb_progressBackgroundTint" format="color|reference"/>
+    <attr name="mpb_progressBackgroundTintMode" format="enum">
+      <enum name="src_over" value="3"/>
+      <enum name="src_in" value="5"/>
+      <enum name="src_atop" value="9"/>
+      <enum name="multiply" value="14"/>
+      <enum name="screen" value="15"/>
+      <enum name="add" value="16"/>
+    </attr>
+    <attr name="mpb_indeterminateTint" format="color|reference"/>
+    <attr name="mpb_indeterminateTintMode" format="enum">
+      <enum name="src_over" value="3"/>
+      <enum name="src_in" value="5"/>
+      <enum name="src_atop" value="9"/>
+      <enum name="multiply" value="14"/>
+      <enum name="screen" value="15"/>
+      <enum name="add" value="16"/>
+    </attr>
+  </declare-styleable>
+
+</resources>
